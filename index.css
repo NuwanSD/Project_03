@@ -1,0 +1,111 @@
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+@media (max-width:768px) {
+    .navbar-brand{
+        font-size: 25px;
+    }
+}
+#nav-logo{
+    width: 52px;
+    height: 52px;
+    margin-right:5px;
+}
+
+#text1{
+    font-size: 80px;
+    font-weight:700;
+}
+#text2{
+    font-size: 60px;
+}
+
+@media (max-width:768px){
+    #text1{
+        font-size: 60px;
+    }
+    #text2{
+        font-size: 35px;
+    }
+}
+/* set the background-image opacity without affecting text in the area
+#header-sec{
+    background: url(https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29uc3RydWN0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60)
+    no-repeat center center/cover; 
+    background: rgba(0, 0, 128, 0.3);
+}*/
+
+
+#img1{
+    width: 100%;
+    position: relative;
+}
+
+@media (max-width:768px ) {
+    #img1{
+        margin-bottom: 0%;
+    }
+}
+
+#section-2{
+    background-color: rgb(0,34,64);
+    color: #fff;
+}
+#demo::after{
+    display: block;
+    content: "";
+    height: 60px;
+}
+#crd-1{
+    opacity: 0.6;
+}
+#card1{
+    background-color:rgb(2,42,77);
+}
+#btn-0{
+   border-radius: 15px;
+}
+
+#btn-1{
+    color: rgb(0,34,64);
+    font-weight: 500;
+    border-radius: 25px;
+    padding: 10px 40px;
+}
+.demo-1::after{
+    display: block;
+    content: "";
+    height: 60px;
+}
+#section-5{
+    background-color: rgb(0,34,64);
+    /*height: 500px;*/ 
+}
+#section-6::before{
+    display: block;
+    content: "";
+    height: 30px;
+}
+.section-7{
+    background-color: rgb(0,34,64);
+}
+.section-8::before{
+    display: block;
+    content: "";
+    height: 70px;
+}
+
+footer{
+    background-color: rgb(0,34,64);
+    color: #fff;
+    font-size: 15px;
+}
+#col-s:hover{
+    box-shadow: 0 0 10px;
+}
+
