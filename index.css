@@ -70,7 +70,6 @@ body::before{
 #btn-0{
    border-radius: 15px;
 }
-
 #btn-1{
     color: rgb(0,34,64);
     font-weight: 500;
@@ -99,7 +98,6 @@ body::before{
     content: "";
     height: 70px;
 }
-
 footer{
     background-color: rgb(0,34,64);
     color: #fff;
